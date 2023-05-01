@@ -18,7 +18,7 @@ public class BankApplication implements CommandLineRunner {
 		SpringApplication.run(BankApplication.class, args);
 	}
 
-	@Override
+	@Override 
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
 		logger.info("its second logger");
